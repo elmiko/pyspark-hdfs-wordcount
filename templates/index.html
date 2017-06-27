@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    {% if counts %}
+    Count of words
+    <ul>
+      {% for c in counts %}
+      <li>{{ c }}</li> 
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>
+    To operate, send a GET request with the path as a parameter, as follows:
+    </p>
+    <p style="font-family:monospace;">GET /?path=/foo/bar</p>
+    {% endif %}
+  </body>
+</html>
