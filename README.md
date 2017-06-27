@@ -18,4 +18,5 @@ This is a source-to-image application designed to be used on
    ```bash
    oc expose svc/pyspark-hdfs-wordcount
    ```
-1. visit the route with a web browser, instructions be provided there
+1. visit the route with a web browser, further usage instructions are
+   provided there
