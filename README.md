@@ -1,8 +1,8 @@
 # pyspark-hdfs-wordcount
 
 This is a source-to-image application designed to be used on
-[OpenShift](https://openshift.org) with the Apache Spark tooling of the
-[radanalytics](https://radanalytics.io) project.
+[OpenShift](https://www.openshift.org) with the Apache Spark tooling of the
+[radanalytics project](https://radanalytics.io).
 
 ## quick start
 
