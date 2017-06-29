@@ -11,7 +11,7 @@ This is a source-to-image application designed to be used on
    ```bash
    oc new-app --template=oshinko-pyspark-build-dc \
       -p APPLICATION_NAME=pyspark-hdfs-wordcount \
-      -p GIT_URI=https://github.com/elmiko/pyspark-hdfs-wordcount
+      -p GIT_URI=https://github.com/elmiko/pyspark-hdfs-wordcount \
       -p APP_ARGS='--host=your.server.fqdn --port=someport'
    ```
 1. expose a route to your application
