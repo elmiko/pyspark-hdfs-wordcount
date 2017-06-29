@@ -7,7 +7,7 @@ This is a source-to-image application designed to be used on
 ## quick start
 
 1. Install the [radanalytics bits](https://radanalytics.io/get-started)
-1. run the following subsituting your HDFS host and port where appropriate:
+1. run the following substituting your HDFS host and port where appropriate:
    ```bash
    oc new-app --template=oshinko-pyspark-build-dc \
       -p APPLICATION_NAME=pyspark-hdfs-wordcount \
